@@ -189,7 +189,7 @@ Error generating stack: `+f.message+`
     md:static\r
     md:top-auto md:left-auto\r
     z-50\r
-  `,children:I.jsxs("div",{className:"relative",children:[I.jsx("div",{className:"absolute inset-0 rounded-full bg-gradient-to-r from-violet-600 to-blue-600 blur-sm opacity-50"}),I.jsx("video",{src:"/video_pessoal.mp4",autoPlay:!0,loop:!0,muted:!0,playsInline:!0,className:`\r
+  `,children:I.jsxs("div",{className:"relative",children:[I.jsx("div",{className:"absolute inset-0 rounded-full bg-gradient-to-r from-violet-600 to-blue-600 blur-sm opacity-50"}),I.jsx("video",{src:"/Portf-lio-dev/video_pessoal.mp4",autoPlay:!0,loop:!0,muted:!0,playsInline:!0,className:`\r
         relative\r
         w-12 h-12\r
         md:w-25 md:h-25\r
