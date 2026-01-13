@@ -9,7 +9,7 @@
 
 **Portfolio moderno e responsivo construído com as tecnologias mais recentes**
 
-[🌐 Ver Demo]() • [📧 Contato](https://mail.google.com/mail/?view=cm&fs=1&to=kelvindev23@gmail.com) • [💼 LinkedIn](https://www.linkedin.com/in/kelvin-augusto-dev)
+[🌐 Ver Demo](https://kelvin-dev23.github.io/Portf-lio-dev/) • [📧 Contato](https://mail.google.com/mail/?view=cm&fs=1&to=kelvindev23@gmail.com) • [💼 LinkedIn](https://www.linkedin.com/in/kelvin-augusto-dev)
 
 </div>
 
@@ -197,10 +197,10 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 **Davyd Willian**
 
-- GitHub: [@JezzXL](https://github.com/JezzXL)
-- LinkedIn: [Davyd Willian](https://www.linkedin.com/in/davydwillianp/)
-- Email: davydsantos.gt@gmail.com
-- Localização: São Luís, Maranhão - Brasil 🇧🇷
+- GitHub: [@kelvin-dev23](https://github.com/kelvin-dev23)
+- LinkedIn: [Kelvin Augusto](https://www.linkedin.com/in/kelvin-augusto-dev)
+- Email: kelvindev23@gmail.com
+- Localização: José Bonifácio, São Paulo - Brasil 🇧🇷
 
 ## 🙏 Agradecimentos
 
@@ -221,6 +221,6 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 **⭐ Se este projeto te ajudou, considere dar uma estrela!**
 
-Feito com ❤️ e ☕ por [Davyd Willian](https://github.com/JezzXL)
+Feito com ❤️ e ☕ por [Kelvin Augusto](https://github.com/kelvin-dev23)
 
 </div>
