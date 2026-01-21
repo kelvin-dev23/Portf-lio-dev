@@ -16,7 +16,7 @@ const Header = ({ currentTheme, onThemeToggle }: HeaderProps) => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 20);
 
-      // Detectar seção ativa
+      
       const sections = ['hero', 'about', 'projects', 'experience', 'contact'];
       const current = sections.find(section => {
         const element = document.getElementById(section);
@@ -78,14 +78,14 @@ const Header = ({ currentTheme, onThemeToggle }: HeaderProps) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           
-          {/* Logo */}
+        
 <motion.button
   onClick={scrollToTop}
   whileHover={{ scale: 1.05 }}
   whileTap={{ scale: 0.95 }}
   className="flex flex-col items-center gap-2 group"
 >
-  {/* Vídeo de perfil */}
+  
 <div
   className="
     absolute top-4 left-4
@@ -116,7 +116,7 @@ const Header = ({ currentTheme, onThemeToggle }: HeaderProps) => {
 </div>
 
 
-  {/* Logo + Nome */}
+
   <div className="flex items-center gap-2">
     <div className="relative">
       <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-violet-600 rounded-lg blur-sm opacity-50 group-hover:opacity-75 transition-opacity"></div>
@@ -137,7 +137,7 @@ const Header = ({ currentTheme, onThemeToggle }: HeaderProps) => {
 </motion.button>
 
           
-          {/* Desktop Navigation */}
+          
           <nav className="hidden md:flex items-center gap-1">
             {navItems.map((item) => (
               <button
@@ -160,7 +160,7 @@ const Header = ({ currentTheme, onThemeToggle }: HeaderProps) => {
               </button>
             ))}
             
-            {/* Theme Toggle */}
+          
             <motion.button
               onClick={onThemeToggle}
               whileHover={{ scale: 1.05 }}
@@ -194,9 +194,9 @@ const Header = ({ currentTheme, onThemeToggle }: HeaderProps) => {
             </motion.button>
           </nav>
 
-          {/* Mobile Actions */}
+          
           <div className="md:hidden flex items-center gap-2">
-            {/* Theme Toggle Mobile */}
+            
             <motion.button
               onClick={onThemeToggle}
               whileTap={{ scale: 0.95 }}
@@ -228,7 +228,7 @@ const Header = ({ currentTheme, onThemeToggle }: HeaderProps) => {
               </AnimatePresence>
             </motion.button>
             
-            {/* Hamburger Menu */}
+          
             <motion.button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               whileTap={{ scale: 0.95 }}
@@ -263,7 +263,7 @@ const Header = ({ currentTheme, onThemeToggle }: HeaderProps) => {
         </div>
       </div>
 
-      {/* Mobile Navigation */}
+    
       <AnimatePresence>
         {isMenuOpen && (
           <motion.nav

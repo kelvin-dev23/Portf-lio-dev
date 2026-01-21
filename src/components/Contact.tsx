@@ -325,7 +325,7 @@ const Contact = () => {
               )}
             </button>
 
-            {/* Sucesso com verde */}
+            
             {status === 'success' && (
               <motion.div
                 initial={{ opacity: 0, y: -10 }}
@@ -339,7 +339,7 @@ const Contact = () => {
               </motion.div>
             )}
 
-            {/* Erro com vermelho */}
+            
             {status === 'error' && (
               <motion.div
                 initial={{ opacity: 0, y: -10 }}
@@ -380,7 +380,7 @@ const Contact = () => {
                 );
               })}
               
-              {/* Botão currículo destacado com roxo */}
+            
               <a
                 href="/curriculo-dev-kelvin-augusto.pdf"
                 download="curriculo-dev-kelvin-augusto.pdf"
@@ -390,8 +390,7 @@ const Contact = () => {
                 <span>DownloadCurrículo (PDF)</span>
               </a>
             </div>
-
-            {/* Card disponível com verde */}
+            
             <div className="mt-8 p-6 bg-emerald-500/10 dark:bg-emerald-500/10 backdrop-blur-sm rounded-lg border border-emerald-500/30">
               <div className="flex items-start gap-3">
                 <div className="w-3 h-3 bg-emerald-500 rounded-full mt-1 animate-pulse shadow-lg shadow-emerald-500/50" />

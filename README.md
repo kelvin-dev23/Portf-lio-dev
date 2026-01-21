@@ -157,30 +157,6 @@ npm run build
 # Configure GitHub Pages para servir da pasta dist/
 ```
 
-## 📝 Seções do Portfolio
-
-### 🏠 Home (Hero)
-Apresentação principal com nome, título e CTAs para projetos e contato.
-
-### 👨‍💻 Sobre
-Informações profissionais, educação, experiência e habilidades técnicas organizadas por nível.
-
-### 💼 Projetos
-Showcase de projetos desenvolvidos com tecnologias, descrições e links para repositório/demo.
-
-### 📧 Contato
-Formulário de contato integrado com EmailJS e links para redes sociais.
-
-## 🤝 Contribuindo
-
-Contribuições são bem-vindas! Sinta-se à vontade para:
-
-1. Fork o projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
-
 ## 📄 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.

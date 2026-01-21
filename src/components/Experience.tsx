@@ -196,9 +196,8 @@ const Experience = () => {
           </motion.p>
         </motion.div>
 
-        {/* Timeline */}
         <div className="relative">
-          {/* Linha vertical central */}
+      
           <motion.div
             initial="hidden"
             whileInView="visible"
@@ -207,7 +206,7 @@ const Experience = () => {
             className="hidden md:block absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-gradient-to-b from-purple-500 via-violet-500 to-purple-500 origin-top"
           />
 
-          {/* Experiências */}
+        
           <div className="space-y-12">
             {experiences.map((exp, index) => {
               const Icon = exp.icon;
@@ -225,7 +224,7 @@ const Experience = () => {
                     isEven ? 'md:flex-row' : 'md:flex-row-reverse'
                   }`}
                 >
-                  {/* Card */}
+                  
                   <div className="w-full md:w-[calc(50%-2rem)]">
                     <motion.div
                       onHoverStart={() => setHoveredCard(exp.id)}
@@ -241,7 +240,7 @@ const Experience = () => {
                           : undefined
                       }}
                     >
-                      {/* Header do Card */}
+                    
                       <div className="flex items-start gap-4 mb-4">
                         <motion.div 
                           initial="hidden"
@@ -275,12 +274,12 @@ const Experience = () => {
                         </div>
                       </div>
 
-                      {/* Descrição */}
+                    
                       <p className="text-[#535353] dark:text-[#a5a5a5] mb-4 leading-relaxed">
                         {exp.description}
                       </p>
 
-                      {/* Responsabilidades */}
+                      
                       <div className="mb-4">
                         <h4 className="text-sm font-semibold text-[#000000] dark:text-white mb-2 flex items-center gap-2">
                           <CheckCircle2 className="w-4 h-4 text-purple-600 dark:text-purple-400" />
@@ -303,7 +302,7 @@ const Experience = () => {
                         </ul>
                       </div>
 
-                      {/* Skills */}
+                      
                       <div className="flex flex-wrap gap-2 pt-4 border-t border-[#a5a5a5]/30 dark:border-[#535353]">
                         {exp.skills.map((skill, idx) => (
                           <motion.span
@@ -322,7 +321,7 @@ const Experience = () => {
                     </motion.div>
                   </div>
 
-                  {/* Marcador central (desktop) */}
+                
                   <motion.div 
                     initial={{ scale: 0, rotate: -180 }}
                     whileInView={{ 
@@ -340,16 +339,14 @@ const Experience = () => {
                   >
                     <Icon className="w-6 h-6 text-white" />
                   </motion.div>
-
-                  {/* Espaço vazio do outro lado (desktop) */}
+                  
                   <div className="hidden md:block w-[calc(50%-2rem)]" />
                 </motion.div>
               );
             })}
           </div>
         </div>
-
-        {/* Timeline Summary */}
+        
         <motion.div
           initial="hidden"
           whileInView="visible"

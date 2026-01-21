@@ -5,6 +5,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import type { Project } from "../types";
 import previewpersonalprofileImg from "../assets/projects/preview-personal-profile.png";
 import previewcorinthianswebImg from "../assets/projects/preview-corinthians-web.png"
+import previewerpsystemImg from "../assets/projects/preview-erpsystem.png"
+
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -41,6 +43,17 @@ const projects: Project[] = [
     demo: "https://kelvin-dev23.github.io/Corinthians-web",
     image:
       previewcorinthianswebImg,
+  },
+  {
+    id: 3,
+    title: "erp-system",
+    description:
+      "Sistema ERP front-end moderno com rotas protegidas, dashboard com métricas, gestão de produtos/estoque, clientes e vendas, além de relatórios com exportação..",
+    technologies: ["React", "vite", "TypeScript", "Tailwind CSS"],
+    github: "https://github.com/kelvin-dev23/erp-system",
+    demo: "https://erp-system-livid.vercel.app/dashboard",
+    image:
+      previewerpsystemImg,
   },
  
 ];
@@ -169,9 +182,9 @@ const Projects = () => {
                     />
                   </div>
 
-                  {/* Conteúdo - 60% da largura no desktop */}
+                  
                   <div className="w-full lg:w-[60%] p-4 sm:p-5 lg:p-6 flex flex-col justify-center space-y-3">
-                    {/* Número */}
+                    
                     <span className="text-3xl sm:text-4xl lg:text-5xl font-bold text-blue-500/20 leading-none">
                       0{index + 1}
                     </span>
@@ -184,7 +197,7 @@ const Projects = () => {
                       {project.description}
                     </p>
 
-                    {/* Tecnologias */}
+                  
                     <div className="flex flex-wrap gap-1.5">
                       {project.technologies
                         .slice(0, 4)
@@ -205,7 +218,7 @@ const Projects = () => {
                       )}
                     </div>
 
-                    {/* Links */}
+                    
                     <div className="flex flex-col sm:flex-row gap-2 pt-2">
                       <a
                         href={project.github}
@@ -234,7 +247,7 @@ const Projects = () => {
             );
           })}
 
-          {/* Card "Ver Mais Projetos" */}
+          
           <div className="flex-shrink-0 w-[85vw] sm:w-[70vw] lg:w-[60vw] max-w-4xl snap-center">
             <a
               href="https://github.com/kelvin-dev23"
@@ -244,7 +257,7 @@ const Projects = () => {
             >
               <div className="bg-gradient-to-br from-blue-600/10 via-violet-600/10 to-purple-600/10 dark:from-violet-500/20 dark:via-violet-500/20 dark:to-purple-500/20 rounded-3xl overflow-hidden shadow-2xl border-2 border-dashed border-purple-500/40 dark:border-violet-400/40 h-full flex flex-col lg:flex-row items-center justify-center p-8 lg:p-12 hover:scale-[1.02] hover:border-purple-500 dark:hover:border-violet-400 transition-all duration-300 hover:shadow-violet-500/25">
                 <div className="text-center space-y-4 lg:space-y-6">
-                  {/* Ícone GitHub com animação */}
+                
                   <div className="relative inline-block">
                     <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-violet-600 rounded-full blur-xl opacity-50 group-hover:opacity-75 transition-opacity"></div>
                     <div className="relative bg-gradient-to-r from-gray-950 to-violet-600 dark:from-violet-500 dark:to-gray-950 p-6 lg:p-8 rounded-full group-hover:scale-110 transition-transform duration-300">
@@ -252,23 +265,23 @@ const Projects = () => {
                     </div>
                   </div>
 
-                  {/* Número especial */}
+              
                   <span className="block text-5xl lg:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-green-300 dark:from-green-400 dark:to-emeral-400">
                     +
                   </span>
 
-                  {/* Título */}
+                  
                   <h3 className="text-2xl lg:text-3xl font-bold text-[#000000] dark:text-white">
                     Confira meu GitHub
                   </h3>
 
-                  {/* Descrição */}
+                
                   <p className="text-[#535353] dark:text-[#a5a5a5] text-sm lg:text-base max-w-md mx-auto">
                     Explore meu perfil no GitHub para ver mais projetos futuros
                     desenvolvidos com diversas tecnologias.
                   </p>
 
-                  {/* Badges de tecnologias */}
+                  
                   <div className="flex flex-wrap gap-2 justify-center pt-4">
                     {[
                       "React",
@@ -291,7 +304,7 @@ const Projects = () => {
                     </span>
                   </div>
 
-                  {/* CTA Button */}
+              
                   <div className="pt-4">
                     <span className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-gray-950 to-violet-600 dark:from-violet-500 dark:to-gray-950 text-white rounded-full font-semibold text-sm lg:text-base shadow-lg group-hover:shadow-blue-500/50 transition-all group-hover:gap-3">
                       Visitar GitHub

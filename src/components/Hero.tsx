@@ -254,7 +254,7 @@ const Hero = () => {
           transition={{ duration: 0.8 }}
           className="space-y-8"
         >
-          {/* Badge com verde para disponibilidade */}
+        
           <motion.div
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -293,7 +293,7 @@ const Hero = () => {
             transition={{ delay: 0.6 }}
             className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           >
-            {/* Botão principal com azul */}
+          
             <button
               onClick={scrollToProjects}
               className="group inline-flex items-center px-8 py-4 bg-emerald-500 dark:bg-emerald-300 text-white rounded-full hover:bg-emerald-600 dark:hover:bg-emerald-600 transition-all hover:scale-105 shadow-lg hover:shadow-emerald-500/25 font-semibold"
@@ -302,7 +302,7 @@ const Hero = () => {
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </button>
 
-            {/* Botão currículo com roxo/violeta */}
+            
             <a
               href="/curriculo-dev-kelvin-augusto.pdf"
               download="curriculo-dev-kelvin-augusto.pdf"

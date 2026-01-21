@@ -12,7 +12,7 @@ const WhatsAppButton = () => {
 
   return (
     <>
-      {/* Botão Principal */}
+      
       <motion.div
         initial={{ scale: 0, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
@@ -48,13 +48,13 @@ const WhatsAppButton = () => {
             )}
           </AnimatePresence>
           
-          {/* Pulse Animation */}
+      
           {!isOpen && (
             <span className="absolute inset-0 rounded-full bg-emerald-500 dark:bg-emerald-400 animate-ping opacity-75" />
           )}
         </button>
 
-        {/* Tooltip */}
+      
         {!isOpen && (
           <motion.div
             initial={{ opacity: 0, x: 20 }}
@@ -70,7 +70,7 @@ const WhatsAppButton = () => {
         )}
       </motion.div>
 
-      {/* Card de Mensagem */}
+      
       <AnimatePresence>
         {isOpen && (
           <motion.div
@@ -80,7 +80,7 @@ const WhatsAppButton = () => {
             transition={{ type: 'spring', stiffness: 300, damping: 25 }}
             className="fixed bottom-28 right-6 z-50 w-80 bg-white dark:bg-[#292929] rounded-2xl shadow-2xl overflow-hidden border border-[#a5a5a5]/30 dark:border-[#535353]"
           >
-            {/* Header */}
+            
             <div className="bg-violet-700 dark:bg-purple-700 p-4 flex items-center gap-3">
               <div className="w-12 h-12 bg-white dark:bg-[#292929] rounded-full flex items-center justify-center">
                 <MessageCircle size={24} className="text-[#535353] dark:text-[#7c7c7c]" />
@@ -91,7 +91,7 @@ const WhatsAppButton = () => {
               </div>
             </div>
 
-            {/* Body */}
+            
             <div className="p-5 space-y-4">
               <div className="bg-[#a5a5a5]/20 dark:bg-[#535353]/30 rounded-lg p-3">
                 <p className="text-[#000000] dark:text-[#a5a5a5] text-sm">
